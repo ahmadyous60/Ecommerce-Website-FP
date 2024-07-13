@@ -1,0 +1,86 @@
+.logo-img {
+    width: 200px; 
+    height: auto;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33, 33, 211);
+    padding: 10px;
+    color: white;
+}
+.brand{
+    font-weight: bolder;
+    width: 20%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.search-bar{
+    width: 60%;
+}
+.search-bar input{
+    width: 55%;
+}
+input::placeholder{
+    padding: 10px;
+    font-weight: bold;
+}
+.cart{
+    width: 20%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.nav-bar-wrapper{
+    display: flex;
+    background-color: rgb(110, 110, 218);
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+/* .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width: 350px;
+    height: 350px;
+} */
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.img img {
+    width: auto;
+    height: 200px;
+    border-radius: 10px; 
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
